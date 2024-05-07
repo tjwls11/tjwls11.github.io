@@ -34,6 +34,7 @@ a:link,a:visited{
     left: 55%;
     transform: translate(-50%, -50%);
     margin-top: -300px;
+
 }
 .infor{
     font-size: 20px;
@@ -42,7 +43,6 @@ a:link,a:visited{
     margin: 0 auto;
 }
 .menu{
-    text-align: center;
     height: 80px;
     margin: 0 auto;
     background-color: rgb(44, 44, 44);
@@ -63,7 +63,15 @@ ul.menu > li{
     top:-15px;"
 }
 
+.pet{
+    text-align: center;
+    width: 300px; 
+    margin: 0 auto;
+    margin-bottom: 50px; 
+}
+
 .icon {
+    text-align: center;
     display: flex; 
     justify-content: space-around; 
     align-items: center; 
