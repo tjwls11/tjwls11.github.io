@@ -7,35 +7,95 @@ body{
     padding: 0;
 }
 
+
 a:link,a:visited{
     text-decoration: none;
     color:white;
 }
 
+<<<<<<< HEAD
+.img-hello{
+    width: 500px;
+=======
 .hello{
+    text-align: center;
+    width: 960px;
+>>>>>>> a0b552a38383cd743caded341438f058d2e67513
+    margin: 0 auto;
+    position: relative; 
+    top: 8px;
+}
+
+<<<<<<< HEAD
+.img-hello > img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.hello{
+    font-size: 35px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    margin-top: -300px;
+}
+.infor{
+    font-size: 20px;
     text-align: center;
     width: 960px;
     margin: 0 auto;
 }
-
-.top{
+=======
+>>>>>>> a0b552a38383cd743caded341438f058d2e67513
+.menu{
     text-align: center;
     height: 80px;
     margin: 0 auto;
-    background-color: rgb(95, 95, 95);
+    background-color: rgb(44, 44, 44);
     padding: 20px 0;
+<<<<<<< HEAD
+    list-style: none;
+}
+
+.menu a:hover{
+    font-weight: bold;
+    color: gray;
+}
+=======
     z-index:0;
+    align-items: center;
+    list-style: none;
+}
+
+>>>>>>> a0b552a38383cd743caded341438f058d2e67513
+
+ul.menu > li{
+    float: left;
+    margin: 25px;
+    font-size: 20px;
+    position: relative;
+<<<<<<< HEAD
+    top:-15px;
 }
 
 .icon {
-  
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+=======
+    top:-15px;"
+}
+
+.icon {
     display: flex; /* flexbox 레이아웃을 활성화합니다. */
     justify-content: space-around; /* 각 아이템 사이에 공간을 동일하게 배분합니다. */
     align-items: center; /* 아이템들을 세로 축 중앙에 정렬합니다. */
-
+>>>>>>> a0b552a38383cd743caded341438f058d2e67513
 }
 
 .icon > div {
-    text-align: center; /* 각 div 내의 텍스트를 중앙 정렬합니다. */
+    text-align: center; 
 }
-
